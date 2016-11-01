@@ -1,5 +1,5 @@
 #page1 {
-	height: 500px;
+	height: 1000px;
 	background-color: black;
 	text-align: center;
 	vertical-align: middle;
@@ -9,7 +9,7 @@
 	background-size: cover;
 }
 #page2 {
-	height: 800px;
+	height: 1000px;
 }
 #page3 {
 	height: 1000px;
