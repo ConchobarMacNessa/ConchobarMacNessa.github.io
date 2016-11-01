@@ -1,0 +1,154 @@
+#page1 {
+	height: 500px;
+	background-color: black;
+	text-align: center;
+	vertical-align: middle;
+}
+#page2 {
+	height: 800px;
+}
+#page3 {
+	height: 1000px;
+	background-image: url("1234.jpg");
+}
+#page4 {
+	height: 1000px;
+}
+#page5 {
+	height: 700px;
+	background-image: url("123.jpg");
+}
+#page6 {
+	height: 300px;
+	background-color: black;
+}
+a:link {
+	color: gainsboro;
+}
+a:visited {
+	color: gainsboro;
+}
+a:hover {
+	color: white;
+}
+a {
+	text-decoration: none;
+	font-family: monospace;
+}
+#nav {
+	background-color: black;
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	position: fixed;
+    top: 0;
+    bottom: auto;
+}
+h1 {
+	font-family: lobster;
+	color: white;
+	font-size: 40px;
+}
+h2 {
+	font-family: monospace;
+	color: white;
+	font-size: 16px;
+}
+.under-text {
+	font-family: monospace;
+	color: #85807F;
+}
+.empty-space {
+	padding: 20px;
+	background-color: none;
+	height: 100px;
+}
+.empty-space2 {
+	background-color: none;
+	height: 10px;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-style: inset;
+    border-width: 1px;
+}
+.circular-border {
+	border-radius: 50%;
+}
+.centred-text {
+	text-align: center;
+	vertical-align: middle;
+	margin: 100px 200px 100px 200px;
+}
+table {
+	font-family: monospace;
+	color: #85807F;
+}
+.table-box {
+	background-color: black;
+	padding: 5px 5px 15px 5px;
+}
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+	overflow-y: auto;
+}
+
+.modalDialog > div {
+	width: 80%;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background-color: black;
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { 
+	background: #00d9ff; 
+}
+.header {
+	text-align: center;
+}
+.contact-button {
+	font-family: lobster;
+	color: white;
+	font-size: 16px;
+}
