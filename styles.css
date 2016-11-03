@@ -158,7 +158,8 @@ table {
 }
 
 .close:hover { 
-	background: #00d9ff; 
+	background: white;
+	color: black; 
 }
 .header {
 	text-align: center;
