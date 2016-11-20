@@ -112,6 +112,36 @@ table {
 	background-color: black;
 	padding: 5px 5px 15px 5px;
 }
+.CVDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.CVDialog:target {
+	opacity:1;
+	pointer-events: auto;
+	overflow-y: auto;
+}
+
+.CVDialog > div {
+	width: 80%;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background-color: white;
+}
 .modalDialog {
 	position: fixed;
 	font-family: Arial, Helvetica, sans-serif;
@@ -187,4 +217,21 @@ table {
 	text-align: center;
 	vertical-align: middle;
 	margin: 30px 30% 30px 30%;
+}
+.CVheader {
+	text-align: center;
+}
+h3 {
+	font-family: Georgia;
+	text-align: center;
+}
+h4 {
+	font-family: Georgia;
+	text-align: left;
+	font-size: 14px;
+}
+.CV {
+	font-family: Georgia;
+	text-align: left;
+	font-size: 12px;
 }
