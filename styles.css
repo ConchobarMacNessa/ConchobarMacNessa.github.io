@@ -10,7 +10,7 @@
 }
 #page2 {
 	height: 1000px;
-	background-image: url("forest1.jpg");
+	background-image: url("forest.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -54,9 +54,6 @@ a:hover {
 a {
 	text-decoration: none;
 	font-family: monospace;
-}
-a:focus {
-	color: black;
 }
 #nav {
 	background-color: black;
@@ -138,7 +135,7 @@ table {
 }
 
 .modalDialog > div {
-	width: 80%;
+	width: 60%;
 	position: relative;
 	margin: 10% auto;
 	padding: 5px 20px 13px 20px;
