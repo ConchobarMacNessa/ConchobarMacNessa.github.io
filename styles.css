@@ -235,3 +235,16 @@ h4 {
 	text-align: left;
 	font-size: 12px;
 }
+.textLink:link {
+	color: black;
+}
+.textLink:visited {
+	color: black;
+}
+.textLink:hover {
+	color: gainsboro;
+}
+.textLink{
+	text-decoration: none;
+	font-family: monospace;
+}
