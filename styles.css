@@ -1,44 +1,43 @@
 #page1 {
 	height: 1000px;
-	background-color: black;
 	text-align: center;
 	vertical-align: middle;
-	background-image: url("earth.jpg");
+	background-image: url(images/earth.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 #page2 {
 	height: 1000px;
-	background-image: url("forest.jpg");
+	background-image: url(images/forest.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 #page3 {
 	height: 1000px;
-	background-image: url("1234.jpg");
+	background-image: url(images/1234.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 #page4 {
 	height: 1000px;
-	background-image: url("birds.jpg");
+	background-image: url(images/birds.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 #page5 {
 	height: 1200px;
-	background-image: url("trees.jpg");
+	background-image: url(images/trees.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 #page6 {
 	height: 700px;
-	background-image: url("stars.jpg");
+	background-image: url(images/stars.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 }
